@@ -1,0 +1,97 @@
+
+body{
+  box-sizing: border-box;
+}
+
+.cards {
+  width: 75vw;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.cars{
+  display: grid;  
+  grid-template-columns: 23vw 23vw 23vw;
+  grid-column-gap: 3vw;
+}
+
+.car {
+  width: 23vw;
+  border: 1px solid #DCDCDC;
+  cursor: pointer;
+  position: relative;
+  height: 28vw;
+  margin-bottom: 3vw;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  height: 12vw;
+  overflow: hidden;
+}
+
+.image > img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.headline {
+  font-size: 1.5vw;
+  margin: 1vw 0;     
+}
+
+.desc {
+  font-size: 1vw;
+  line-height: 1.3vw;
+  margin-bottom: 1vw;
+}
+
+.description {
+  margin-left: 1vw;
+  padding-bottom: 1vw;
+  
+  bottom: 0;
+}
+
+.submit {
+  position: absolute;
+  bottom: 1vw;
+  display: block;
+  height: 2.5vw;
+  width: 8vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  padding: 0 !important;
+}
+
+.btn_text {
+  font-size: 1.05vw;
+}
+
+.submit_2 {
+  margin-right: 5vw;
+  padding: .375rem .75rem;
+}
+
+.submit_2:last-child {
+  margin-right: 0;
+}
+
+.buttons {
+  width: 100%;
+  padding: 5vh;
+  display: flex;
+  justify-content: center;
+}
